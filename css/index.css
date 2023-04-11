@@ -1,0 +1,9 @@
+.error-text{
+  color: red;
+  font-weight: 600;
+  position: relative;
+  top: 205px;
+  position: absolute;
+  margin-left: 5.5px;
+  display: none;
+}

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+
+/* verify account style start */
+
+.otp_field {
+  border-radius: 5px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border: 3px solid #194dda;
+  margin: 1%;
+  text-align: center;
+  font-weight: 600;
+  outline: none;
+}
+.otp_field::-webkit-inner-spin-button,
+.otp_field::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* .form form input.resend_btn {
+  float: right;
+  border: none;
+  background: #f2f3f7;
+  color: #006692;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #2983aa;
+} */
+
+/* verify account style start */
+.fields_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+/* .otp_field::-webkit-inner-spin-button,
+.otp_field::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+.otp_field:valid {
+  border-color: green;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
+/* .form form input.resend_btn {
+  float: right;
+  border: none;
+  background: #f2f3f7;
+  color: #006692;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #2983aa;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "sans-serif";
+}
+body {
+  position: relative;
+  background: rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+::selection {
+  color: #ececec;
+  background: #00b3ff;
+}
+.form {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: -3px 3px 10px -5px rgba(34, 9, 102, 0.2);
+  padding: 30px 30px;
+  background-color: #e1f1f5;
+  
+  
+}
+.form h2 {
+  font-size: 35px;
+  font-weight: 700;
+  top: 170px;
+  position: fixed;
+  margin-left: 50px;
+  color: #399961;
+  border: rgb(5, 59, 5);
+  
+}
+.form p {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.form form {
+  margin: 8px 0;
+}
+.form form .error-text {
+  display: none;
+  padding: 4px 6px;
+  text-align: center;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  position: absolute;
+  font-weight:bold;
+  color: red;
+  margin-left: 170px;
+  bottom: 150px;
+}
+
+
+.form form input.button {
+  height: 45px;
+  border: none;
+  color: #f2f3f7;
+  width: 50%;
+  font-size: 17px;
+  background: green;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 13px;
+  border: 2px solid #0f330a;
+  
+}
+.form form input.button:hover{
+   color: #00b3ff;
+}
+
+
+
+
+
